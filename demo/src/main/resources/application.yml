@@ -1,0 +1,28 @@
+vaadin:
+    launch-browser: true
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+    whitelabel:
+      enabled: false
+    path: /error
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/inventory_management
+    username: postgres
+    password: springpass
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        show_sql: true
+
+logging:
+  level:
+    org.hibernate.type: TRACE
