@@ -1,0 +1,102 @@
+{
+  "uuid": "cfb367cf-b11e-4d6b-887f-732bbcf51f08",
+  "lastMigration": 33,
+  "name": "Mockapi",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "48f93b04-0b3c-4f3a-b5bb-bff45a32b195",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "orders",
+      "responses": [
+        {
+          "uuid": "0ad2faf1-fc74-4da1-a4cc-e42034bbb463",
+          "body": "[\n  {\n    \"id\": \"1\",\n    \"customerId\": \"C1001\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-01\"\n  },\n  {\n    \"id\": \"2\",\n    \"customerId\": \"C1002\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-02\"\n  },\n  {\n    \"id\": \"3\",\n    \"customerId\": \"C1003\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-06-03\"\n  },\n  {\n    \"id\": \"4\",\n    \"customerId\": \"C1004\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-06-04\"\n  },\n  {\n    \"id\": \"5\",\n    \"customerId\": \"C1005\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-05\"\n  },\n  {\n    \"id\": \"6\",\n    \"customerId\": \"C1006\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-06\"\n  },\n  {\n    \"id\": \"7\",\n    \"customerId\": \"C1007\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-07\"\n  },\n  {\n    \"id\": \"8\",\n    \"customerId\": \"C1008\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-06-08\"\n  },\n  {\n    \"id\": \"9\",\n    \"customerId\": \"C1009\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-06-09\"\n  },\n  {\n    \"id\": \"10\",\n    \"customerId\": \"C1010\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-10\"\n  },\n  {\n    \"id\": \"11\",\n    \"customerId\": \"C1011\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-11\"\n  },\n  {\n    \"id\": \"12\",\n    \"customerId\": \"C1012\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-12\"\n  },\n  {\n    \"id\": \"13\",\n    \"customerId\": \"C1013\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-13\"\n  },\n  {\n    \"id\": \"14\",\n    \"customerId\": \"C1014\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-06-14\"\n  },\n  {\n    \"id\": \"15\",\n    \"customerId\": \"C1015\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-06-15\"\n  },\n  {\n    \"id\": \"16\",\n    \"customerId\": \"C1016\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-16\"\n  },\n  {\n    \"id\": \"17\",\n    \"customerId\": \"C1017\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-06-17\"\n  },\n  {\n    \"id\": \"18\",\n    \"customerId\": \"C1018\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-18\"\n  },\n  {\n    \"id\": \"19\",\n    \"customerId\": \"C1019\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-19\"\n  },\n  {\n    \"id\": \"20\",\n    \"customerId\": \"C1020\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-06-20\"\n  },\n  {\n    \"id\": \"21\",\n    \"customerId\": \"C1021\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-06-21\"\n  },\n  {\n    \"id\": \"22\",\n    \"customerId\": \"C1022\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-22\"\n  },\n  {\n    \"id\": \"23\",\n    \"customerId\": \"C1023\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-23\"\n  },\n  {\n    \"id\": \"24\",\n    \"customerId\": \"C1024\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-24\"\n  },\n  {\n    \"id\": \"25\",\n    \"customerId\": \"C1025\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-25\"\n  },\n  {\n    \"id\": \"26\",\n    \"customerId\": \"C1026\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-06-26\"\n  },\n  {\n    \"id\": \"27\",\n    \"customerId\": \"C1027\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-06-27\"\n  },\n  {\n    \"id\": \"28\",\n    \"customerId\": \"C1028\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-06-28\"\n  },\n  {\n    \"id\": \"29\",\n    \"customerId\": \"C1029\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-29\"\n  },\n  {\n    \"id\": \"30\",\n    \"customerId\": \"C1030\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-06-30\"\n  },\n  {\n    \"id\": \"31\",\n    \"customerId\": \"C1031\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-07-01\"\n  },\n  {\n    \"id\": \"32\",\n    \"customerId\": \"C1032\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-07-02\"\n  },\n  {\n    \"id\": \"33\",\n    \"customerId\": \"C1033\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-07-03\"\n  },\n  {\n    \"id\": \"34\",\n    \"customerId\": \"C1034\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-07-04\"\n  },\n  {\n    \"id\": \"35\",\n    \"customerId\": \"C1035\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-07-05\"\n  },\n  {\n    \"id\": \"36\",\n    \"customerId\": \"C1036\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-07-06\"\n  },\n  {\n    \"id\": \"37\",\n    \"customerId\": \"C1037\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-07-07\"\n  },\n  {\n    \"id\": \"38\",\n    \"customerId\": \"C1038\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-07-08\"\n  },\n  {\n    \"id\": \"39\",\n    \"customerId\": \"C1039\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-07-09\"\n  },\n  {\n    \"id\": \"40\",\n    \"customerId\": \"C1040\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-07-10\"\n  },\n  {\n    \"id\": \"41\",\n    \"customerId\": \"C1041\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-07-11\"\n  },\n  {\n    \"id\": \"42\",\n    \"customerId\": \"C1042\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-07-12\"\n  },\n  {\n    \"id\": \"43\",\n    \"customerId\": \"C1043\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-07-13\"\n  },\n  {\n    \"id\": \"44\",\n    \"customerId\": \"C1044\",\n    \"status\": \"cancelled\",\n    \"orderDate\": \"2024-07-14\"\n  },\n  {\n    \"id\": \"45\",\n    \"customerId\": \"C1045\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-07-15\"\n  },\n  {\n    \"id\": \"46\",\n    \"customerId\": \"C1046\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-07-16\"\n  },\n  {\n    \"id\": \"47\",\n    \"customerId\": \"C1047\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-07-17\"\n  },\n  {\n    \"id\": \"48\",\n    \"customerId\": \"C1048\",\n    \"status\": \"processing\",\n    \"orderDate\": \"2024-07-18\"\n  },\n  {\n    \"id\": \"49\",\n    \"customerId\": \"C1049\",\n    \"status\": \"delivered\",\n    \"orderDate\": \"2024-07-19\"\n  },\n  {\n    \"id\": \"50\",\n    \"customerId\": \"C1050\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-07-20\"\n  }\n]\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "48f93b04-0b3c-4f3a-b5bb-bff45a32b195"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "a3ec5227-d8ec-4661-b67f-0c8892643519",
+      "id": "zkjb",
+      "name": "New data",
+      "documentation": "",
+      "value": "[[\n  {\n    \"id\": \"12345\",\n    \"customerId\": \"67890\",\n    \"status\": \"shipped\",\n    \"orderDate\": \"2024-06-01\"\n  }\n]\n\n]"
+    }
+  ],
+  "callbacks": []
+}

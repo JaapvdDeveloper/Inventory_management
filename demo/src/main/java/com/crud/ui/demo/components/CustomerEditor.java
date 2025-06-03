@@ -18,17 +18,7 @@ import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.spring.annotation.SpringComponent;
 import com.vaadin.flow.spring.annotation.UIScope;
 
-/**
- * A simple example to introduce building forms. As your real application is
- * probably much
- * more complicated than this example, you could re-use this form in multiple
- * places. This
- * example component is only used in MainView.
- * <p>
- * In a real world application you'll most likely using a common super class for
- * all your
- * forms - less code, better UX.
- */
+
 
 @SpringComponent
 @UIScope
